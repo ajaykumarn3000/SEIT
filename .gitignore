@@ -1,0 +1,7 @@
+# *.pdf
+*.docx
+*.exe
+*.class
+# *.json
+*pvt.pdf
+*.vscode
