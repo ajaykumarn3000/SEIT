@@ -1,7 +1,7 @@
 -- Author: Ajaykumar
 
 areaOfCircle :: Float -> Float
-areaOfCircle r = 2 * pi * r
+areaOfCircle r = pi * r**2
 
 main :: IO ()
 main = do
