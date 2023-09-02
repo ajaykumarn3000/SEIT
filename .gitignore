@@ -5,3 +5,4 @@
 # *.json
 *pvt.pdf
 *.vscode
+.devcontainer
