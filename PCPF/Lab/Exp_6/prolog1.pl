@@ -1,3 +1,5 @@
+% Author - Ajaykumar Nadar
+
 woman(mia).
 woman(jody).
 woman(yolanda).

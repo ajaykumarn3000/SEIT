@@ -1,3 +1,5 @@
+% Author - Ajaykumar Nadar
+
 studies(charlie, csc135).
 studies(olivia, csc135).
 studies(jack, csc131).

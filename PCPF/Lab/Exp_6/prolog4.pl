@@ -1,3 +1,5 @@
+% Author - Ajaykumar Nadar
+
 % Not Operation
 notGate(false).
 
@@ -14,4 +16,3 @@ nandGate(false, _).
 
 % NOR Operation
 norGate(false, false).
-
