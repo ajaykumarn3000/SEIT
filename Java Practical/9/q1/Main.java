@@ -1,21 +1,23 @@
-class A extends Thread  {
+class A extends Thread {
   public void run() {
-    for(int i = 0; i<10; i++) {
-      System.out.println(i+": thread A is running");
+    for (int i = 0; i < 2; i++) {
+      System.out.println(i + ": thread A is running");
     }
   }
 }
-class B extends Thread  {
+
+class B extends Thread {
   public void run() {
-    for(int i = 0; i<10; i++) {
-      System.out.println(i+": thread B is running");
+    for (int i = 0; i < 2; i++) {
+      System.out.println(i + ": thread B is running");
     }
   }
 }
-class C extends Thread  {
+
+class C extends Thread {
   public void run() {
-    for(int i = 0; i<10; i++) {
-      System.out.println(i+": thread C is running");
+    for (int i = 0; i < 2; i++) {
+      System.out.println(i + ": thread C is running");
     }
   }
 }
@@ -30,4 +32,4 @@ class Main {
     b.start();
     c.start();
   }
- }
+}

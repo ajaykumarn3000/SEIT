@@ -15,14 +15,16 @@ void main() {
             scanf("%d", &arr[i][j]);
         }
     }
-
+    
+    printf("\nAdjacency Matrix Representation: \n");
     for(int i = 0; i<n; i++){
         for(int j = 0; j<n; j++){
             printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
-
+    
+    printf("\nAdjacency List Representation: \n");
     for(int i = 0; i < n; i++)
     {
         printf("%d ", i+1);

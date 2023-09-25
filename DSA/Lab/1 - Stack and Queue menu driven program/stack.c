@@ -49,9 +49,10 @@ int main()
 
 
     while(con == 1){
-    printf(" 1.Push\n 2.Pop\n 3.Peak\n 4.Display\n");
+    printf("\n 1.Push\n 2.Pop\n 3.Peak\n 4.Display\n");
     printf("Choose a operation: ");
     scanf("%d", &choice);
+    printf("\n");
         switch (choice) {
             case 1:
                 push();
@@ -69,7 +70,8 @@ int main()
                 printf("Invalid Operation\n");
                 break;
         }
-        printf("Enter 1 to continue: ");
+        printf("\nEnter 1 to continue: ");
         scanf("%d", &con);
+        printf("\n"); 
     }
 }
