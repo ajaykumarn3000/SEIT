@@ -1,0 +1,23 @@
+// WAP to display n-thread ids 
+
+class Maskjdfahjs extends Thread {
+  public void run() {
+    System.out.println("Thread id: " + Thread.currentThread().getId());
+  }
+}
+class Main {
+  public static void main(String[] args) {
+    Maskjdfahjs t1 = new Maskjdfahjs();
+    Maskjdfahjs t2 = new Maskjdfahjs();
+    Maskjdfahjs t3 = new Maskjdfahjs();
+    Maskjdfahjs t4 = new Maskjdfahjs();
+    Maskjdfahjs t5 = new Maskjdfahjs();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    t1.start();
+    t2.start();
+    t3.start();
+    t4.start();
+    t5.start();
+
+  }
+}
