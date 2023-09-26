@@ -9,7 +9,6 @@ class Welcome extends Thread {
     System.out.println(msg);
   }
 }
-
 class Main {
   public static void main(String[] args) {
     Welcome t1 = new Welcome("Welcome to SFIT");
@@ -18,5 +17,4 @@ class Main {
     t1.start();
     t2.start();
   }
-
 }

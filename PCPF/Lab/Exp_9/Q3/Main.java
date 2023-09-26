@@ -1,5 +1,3 @@
-// Create a thread t1 by implementing runnable interface to display “Hello world” message
-
 class Msg implements Runnable {
   public void run() {
     System.out.println("Hello World");
