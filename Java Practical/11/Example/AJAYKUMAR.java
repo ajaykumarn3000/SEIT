@@ -1,8 +1,3 @@
-// Example 3
-
-
-package ajaykumar;
-
 import java.awt.*;
 public class AJAYKUMAR {
   public static void main(String[] args) 
