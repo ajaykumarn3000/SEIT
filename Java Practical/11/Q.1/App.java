@@ -34,10 +34,11 @@ class App extends Frame implements ActionListener, MouseListener {
   }
 
   public void mousePressed(MouseEvent e) {
+    txtField.setText("mouse pressed");
   }
 
-  // this function is invoked when the mouse is released
   public void mouseReleased(MouseEvent e) {
+    txtField.setText("mouse released");
   }
 
   public void mouseClicked(MouseEvent e) {
