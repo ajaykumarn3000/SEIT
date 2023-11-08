@@ -2,7 +2,7 @@ import java.io.FileOutputStream;
 public class Main2 {
   public static void main(String args[]) {
     try {
-      String s = "welcome to java";
+      String s = "Hello World!\n";
       byte b[] = s.getBytes();
       FileOutputStream fout = new FileOutputStream("testout2.txt");
       fout.write(b);
